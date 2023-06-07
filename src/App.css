@@ -1,0 +1,32 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form{
+  border: 1px solid grey;
+  padding: 50px;
+  background-color: #77A1D3;
+  width: 60vh;
+  height: 140vh;
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  top: 50%;
+  padding-bottom: 5px;
+  right: 50%;
+  margin-top: 0px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="password"], input[type="submit"]{
+  background-color: #79cbca;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 5px;
+}
